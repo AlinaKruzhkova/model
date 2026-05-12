@@ -1,0 +1,4 @@
+﻿model_name,input_size,accuracy,precision,recall,f1_score,inference_time_ms
+Dense,128x128,0.7546,0.7551,0.7546,0.7543,2.5
+CNN,128x128,0.8074,0.8121,0.8074,0.8063,1.8
+MobileNetV2,224x224,0.9881,0.9884,0.9881,0.9881,5.28
