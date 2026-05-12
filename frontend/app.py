@@ -8,13 +8,15 @@ from streamlit_drawable_canvas import st_canvas
 from pathlib import Path
 
 
+
+
 st.set_page_config(
     page_title="Классификация цифр и животных",
     layout="wide"
 )
 
 # Базовый URL API
-API_BASE_URL = "???"
+API_BASE_URL = "https://model-0lnt.onrender.com"
 
 DIGIT_API_URL = f"{API_BASE_URL}/predict/digit"
 ANIMAL_API_URL = f"{API_BASE_URL}/predict/animal"
