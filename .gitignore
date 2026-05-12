@@ -21,8 +21,6 @@ build/
 *.weights.h5
 *.pt
 *.pth
-models/*.keras
-models/*.h5
 
 # ─────────────────────────────────────────
 # 🔧 IDE
